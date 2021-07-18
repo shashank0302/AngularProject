@@ -19,7 +19,7 @@ export class Top10Component implements OnInit {
     this.dsobj.getTop10DataByname(id).subscribe(
       data=>{
         this.list=data
-        console.log(this.list);
+
         
       },
       err=>{

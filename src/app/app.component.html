@@ -13,8 +13,12 @@
           <a class="nav-link text-white pe-5" routerLink="register"><i class="fas fa-registered"></i> REGISTER</a>
         </li>
       
-        <li class="nav-item">
+        <li class="nav-item" *ngIf="!dsobj.checkUserLogin()">
           <a class="nav-link text-white pe-5" routerLink="login"><i class="fas fa-sign-in-alt"></i> LOGIN</a>
+        </li>
+
+        <li class="nav-item" *ngIf="dsobj.checkUserLogin()">
+          <a class="nav-link text-white pe-5" routerLink="login" routerLinkActive="active" (click)="logout()"><i class="fas fa-sign-in-alt"></i> Logout</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-white pe-5" routerLink="contactus"><i class="far fa-id-badge"></i> CONTACT US</a>

@@ -25,6 +25,7 @@ export class LoginComponent implements OnInit {
 
     else{
       //navigates to admin
+      localStorage.setItem("username","admin")
       this.router.navigateByUrl("/admin")
 
     }

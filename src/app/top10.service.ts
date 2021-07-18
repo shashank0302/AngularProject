@@ -23,5 +23,12 @@ export class Top10Service {
     return this.httpObject.put("http://localhost:3000/"+this.name+'/'+modObj.id,modObj)
   }
 
+  checkUserLogin():boolean{
+    if(localStorage.getItem("username")==null){
+      return false
+    }
+    return true
+  }
+
 
 }

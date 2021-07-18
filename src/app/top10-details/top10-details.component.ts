@@ -18,7 +18,6 @@ export class Top10DetailsComponent implements OnInit {
     this.dsobj.getTop10DetailedData(id).subscribe(
       data=>{
         this.Detaileddata=data
-        console.log(this.Detaileddata);
         
       },
       err=>{
