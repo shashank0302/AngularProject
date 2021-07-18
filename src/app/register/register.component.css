@@ -1,0 +1,49 @@
+img{
+    opacity: 0.2;
+}
+
+#r{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.form-label{
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+
+.btn{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.9;
+    color: white;
+   
+}
+
+.form-control
+{
+    width: 430px;
+}
+
+.plo{
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.pp{
+    overflow: hidden;
+    position: relative;
+}
+form{
+    position: relative;
+}

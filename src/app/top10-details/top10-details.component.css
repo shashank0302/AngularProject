@@ -1,0 +1,19 @@
+/* #c1,#c2
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+img{
+    margin: auto;
+    display: block;
+} */
+
+.font_heading{
+    font-family: 'Zen Loop', cursive;
+}
+.table_font{
+    font-family: 'Uchen', serif;
+}

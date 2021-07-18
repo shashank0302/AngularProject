@@ -1,0 +1,35 @@
+<div id="b1">
+  <div class="row">
+  <div class="col-1">
+    <p id="icons"><i class="fab fa-facebook"></i>  </p>  
+  <p id="icons"><i class="fab fa-twitter-square"></i> </p>      
+   <p id="icons"><i class="fab fa-instagram"></i> </p>
+  </div>
+  
+  <div class="col-10">
+  <p id="h1" class="mt-5 pt-3 text-white text-center mx-auto display-1"> TOP <span>10</span></p></div></div>
+  
+  
+  
+  </div>
+  <div  class="row p-5 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
+    
+    <div class="col-sm-12 col-md-6 col-lg-2 " id="main" *ngFor="let i of category">
+      
+          <p id="names" class="text-dark text-center">{{i.name}}</p>
+          <button class="btn bg-dark text-white m-5 d-block mx-auto" (click)="getFullData(i.name)">VIEW</button>
+      
+    </div>
+  
+  </div>
+  <hr>
+  
+  <div class="row">
+    <div class="col-12">
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81nGkful2jL._AC_SL1500_.jpg" width=256px height="300px" >
+  <img src="https://images-na.ssl-images-amazon.com/images/I/61boFr6SYZL._SL1000_.jpg" width=257px height="300px" >
+  <img src="https://m.media-amazon.com/images/I/71xmdL1MbfL.jpg"  width=258px height="300px" >
+  
+  <img src="https://www.bellanaija.com/wp-content/uploads/2017/07/19955284_1415023985241290_6004289714880774144_n.jpg" width=260px height="300px" >
+  <img src="https://pm1.narvii.com/5897/9e3444d350c05c71909a92fa711522edab48d44a_hq.jpg" width=260px height="300px" >
+  </div></div>

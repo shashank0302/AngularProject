@@ -1,0 +1,36 @@
+
+
+<!-- <ul class="nav nav-pills m-5">
+    <li class="nav-item d-block mx-auto">
+      <a class="nav-link "  routerLink="movies"  routerLinkActive="active" (click)="">Movies</a>
+    </li>
+    <li class="nav-item d-block mx-auto">
+      <a class="nav-link " routerLink="tvseries"  routerLinkActive="active">TV Series</a>
+    </li>
+    <li class="nav-item d-block mx-auto">
+      <a class="nav-link  " routerLink="games"  routerLinkActive="active">Games</a>
+    </li>
+    <li class="nav-item d-block mx-auto">
+        <a class="nav-link  " routerLink="musicvideos"  routerLinkActive="active">Music Videos</a>
+      </li>
+      <li class="nav-item d-block mx-auto">
+        <a class="nav-link  " routerLink="anime"  routerLinkActive="active">Anime</a>
+      </li>
+   
+  </ul> -->
+  
+<h3 class="display-3 text-center mb-5 text-primary">Select to edit one of the following lists</h3>
+    
+  <ul class="nav nav-pills m-5 text-white bg-primary">
+  
+    <li class="nav-item d-block mx-auto " *ngFor="let i of category">
+      
+          <button class="btn bg-dark text-light m-5 d-block mx-auto " (click)="getFullData(i.name)">{{i.name}}</button>
+ </li>
+</ul>
+
+
+
+<div>
+    <router-outlet></router-outlet>
+</div>

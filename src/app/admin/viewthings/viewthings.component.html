@@ -1,0 +1,21 @@
+
+<div class="my-5">
+  <input type="text" placeholder="Search by Rank" name="rank" class="form-control" [(ngModel)]="searchRank">
+</div>
+
+
+<div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-5 m-5">
+  <div class="col" *ngFor="let data of list | search:searchRank">
+      <div class="card p-3">
+              <img class=" p-3 mx-auto " width="100%" height="100%" src="{{data.image}} ">
+              <p id="rank">{{data.rank}}</p>
+             
+             <p id="rank"><i class="fas fa-star"></i> {{data.Rating}}</p>
+            <p id="title">{{data.title}}</p>
+            <button class="btn btn-warning" (click)="editdetails(data.id)">Edit</button>
+      </div>
+  </div>
+</div>
+
+
+

@@ -1,0 +1,58 @@
+<div>
+  <h2 class="fontt text-white text-center mt-5">Enter New Details for the Rank {{prevData.rank}}</h2>
+</div>
+
+<div class="row mt-5">
+    <div class="col-sm-2 col-md-3"></div>
+    <div class="col-sm-8 col-md-6">
+      <form>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="tt" placeholder="Enter Title" name="title"
+            [(ngModel)]="dataModel.title">
+          <label for="pt">Title</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="ft" placeholder="Enter FullTitle" name="fullTitle"
+            [(ngModel)]="dataModel.fullTitle">
+          <label for="pi">Full Title</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="gn" placeholder="Enter Genre" name="genre"
+            [(ngModel)]="dataModel.genre">
+          <label for="pd">genre</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="yr" placeholder="Enter Year" name="year"
+              [(ngModel)]="dataModel.year">
+            <label for="pc">year</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="img" placeholder="Enter Image" name="image"
+              [(ngModel)]="dataModel.image">
+            <label for="pr">image</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="cr" placeholder="Password" name="crew"
+              [(ngModel)]="dataModel.crew">
+            <label for="pp">crew</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="r" placeholder="Enter Rating" name="Rating"
+              [(ngModel)]="dataModel.Rating">
+            <label for="pp">Rating</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="rc" placeholder="Enter Rating Count" name="RatingCount"
+              [(ngModel)]="dataModel.RatingCount">
+            <label for="pp">RatingCount</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="vi" placeholder="Enter views" name="views"
+              [(ngModel)]="dataModel.views">
+            <label for="pp">views</label>
+          </div>
+        <button class="btn btn-warning float-end" (click)="onSubmitNewData(dataModel)" type="submit">Add</button>
+      </form>
+    </div>
+    <div class="col-sm-2 col-md-3"></div>
+  </div>

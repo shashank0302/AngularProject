@@ -1,0 +1,47 @@
+
+#main{
+    border-radius: 25px;
+   background: rgb(216, 211, 211);
+   padding: 5px;
+   margin: 5px;
+   width: 230px; 
+
+
+}
+button{
+   font-family: 'Shadows Into Light', cursive;
+   font-weight: bold;
+}
+#names{
+   font-size: 30px;
+   font-family: 'Shadows Into Light', cursive;
+}
+#icons{
+   font-size: 20px;
+   color: white;
+   padding: 10px;
+   
+}
+#l
+{
+   color: black;
+}
+
+#b1{
+  /* background-image: url('https://image.freepik.com/free-vector/gallery-black-wall-with-focus-spotlights-background_1017-23787.jpg'); */
+   background-image: url( 'https://i.pinimg.com/originals/fe/d3/d6/fed3d6467231c334788f43202c0fb9c6.jpg'); 
+   height: 200px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size : 100%;
+}
+
+
+span{
+   font-weight: bold;
+   font-family: 'Shadows Into Light', cursive;
+}
+#h1{
+   
+   font-family: 'Shadows Into Light', cursive;
+}

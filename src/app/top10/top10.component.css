@@ -1,0 +1,32 @@
+#rank{
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card{
+    background-color: rgb(58, 57, 57);
+}
+#rank{
+    color: white;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    
+
+}
+i{
+    color: gold;
+}
+
+.btn{
+    background-color:  rgb(119, 117, 117);
+    color: rgb(250, 222, 62);
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+}
